@@ -4,7 +4,7 @@ import './globals.css';
 import { ApolloProvider } from '@apollo/client';
 import client from '@/lib/apollo-client';
 
-export default function AppProviders({
+export default function ApolloClientProvider({
   children
 }: Readonly<{
   children: React.ReactNode;
